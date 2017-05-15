@@ -2,7 +2,7 @@
 Simple NodeJS Massive-Multiplayers-Online game server
 
 ```
-var Server = require("mmo-server");
+var Server = require("mmo-server").server;
 Server.start({
   root: "./www",
   onSuccess: function( args ) {
@@ -11,9 +11,9 @@ Server.start({
   onFailure: function( err ) {
     console.error( "Server failed to start due to the following error:\n", err );
   },
-  onRequest: function( serviceName, data ) {
+  onRequest: function( serviceName, data, resolve, reject ) {
     // Just echoes the data.
-    return data;
+    resolve( data );
   }
 });
 ```

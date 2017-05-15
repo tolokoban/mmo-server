@@ -1,0 +1,25 @@
+{
+  "name": "mmo-server",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Massive-Multiplayers-Online game server",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolokoban/mmo-server.git"
+  },
+  "keywords": [
+    "MMO",
+    "game",
+    "server",
+    "multiplayer"
+  ],
+  "author": "tolokoban",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tolokoban/mmo-server/issues"
+  },
+  "homepage": "https://github.com/tolokoban/mmo-server#readme"
+}
