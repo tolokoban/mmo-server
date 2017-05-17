@@ -1,6 +1,6 @@
 {
   "name": "mmo-server",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simple NodeJS Massive-Multiplayers-Online game server",
   "main": "bin/index.js",
   "scripts": {

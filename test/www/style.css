@@ -1,0 +1,37 @@
+html {
+  background: #ddd;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0 16px 32px rgba(0,0,0,.5);
+  background: #fff;
+  width: 800px;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+div.table-images {
+  display: table;
+  width: 100%;
+}
+
+div.table-images > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+}
+
+div.table-images > div > img {
+  margin: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,.5);
+}
